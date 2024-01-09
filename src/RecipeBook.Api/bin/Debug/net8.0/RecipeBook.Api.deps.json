@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RecipeBook.Api/1.0.0": {
+        "dependencies": {
+          "RecipeBook.ServiceLibrary": "1.0.0"
+        },
+        "runtime": {
+          "RecipeBook.Api.dll": {}
+        }
+      },
+      "RecipeBook.ServiceLibrary/1.0.0": {
+        "runtime": {
+          "RecipeBook.ServiceLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RecipeBook.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecipeBook.ServiceLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -9,3 +9,4 @@
 /Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/obj/Debug/net8.0/refint/RecipeBook.ServiceLibrary.dll
 /Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/obj/Debug/net8.0/RecipeBook.ServiceLibrary.pdb
 /Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/obj/Debug/net8.0/ref/RecipeBook.ServiceLibrary.dll
+/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/obj/Debug/net8.0/RecipeBook.ServiceLibrary.sourcelink.json

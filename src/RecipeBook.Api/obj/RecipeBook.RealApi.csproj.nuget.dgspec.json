@@ -1,0 +1,121 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.RealApi/RecipeBook.RealApi.csproj": {}
+  },
+  "projects": {
+    "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.RealApi/RecipeBook.RealApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.RealApi/RecipeBook.RealApi.csproj",
+        "projectName": "RecipeBook.RealApi",
+        "projectPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.RealApi/RecipeBook.RealApi.csproj",
+        "packagesPath": "/Users/davidkatz/.nuget/packages/",
+        "outputPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.RealApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davidkatz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj": {
+                "projectPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj",
+        "projectName": "RecipeBook.ServiceLibrary",
+        "projectPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj",
+        "packagesPath": "/Users/davidkatz/.nuget/packages/",
+        "outputPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davidkatz/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

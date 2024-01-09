@@ -1,0 +1,92 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "RecipeBook.ServiceLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/RecipeBook.ServiceLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RecipeBook.ServiceLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RecipeBook.ServiceLibrary/1.0.0": {
+      "type": "project",
+      "path": "../RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj",
+      "msbuildProject": "../RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "RecipeBook.ServiceLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/davidkatz/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/RecipeBook.Api.csproj",
+      "projectName": "RecipeBook.Api",
+      "projectPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/RecipeBook.Api.csproj",
+      "packagesPath": "/Users/davidkatz/.nuget/packages/",
+      "outputPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/davidkatz/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj": {
+              "projectPath": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.ServiceLibrary/RecipeBook.ServiceLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
