@@ -9,13 +9,13 @@ namespace RecipeBook.Api.Controllers
 	[ApiController]
 	public class RecipeController : ControllerBase
 	{
-		[HttpGet]
-		public IActionResult AddNewRecipe([FromQuery]RecipeEntity recipeEntity)
+		[HttpGet] // api/recipes?pageSize=10&pageNumber=1
+		public async Task<IActionResult> GetListAsync(
+			[FromQuery]int pageSize,
+			[FromQuery]int pageNumber)
 		{
-			var businessLogic = new Recipe();
-			businessLogic.SaveRecipe(recipeEntity);
-			// return Ok();
-			return Ok("A message that says this GET request went okay");
+			return Ok(pageSize + " " + pageNumber);
 		}
+
 	}
 }
