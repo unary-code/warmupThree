@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/js/message.js",
+      "PackagePath": "staticwebassets/js/message.js"
+    },
+    {
       "Id": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
@@ -243,6 +251,10 @@
     {
       "Id": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/lib/signalr.js",
+      "PackagePath": "staticwebassets/lib/signalr.js"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.RecipeBook.Api.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eVaA4ptY230xUDlV63h579f6yZRrGKWTyFDy3aJXyGw=",
+  "Hash": "Oo7REXDstbuBDQqLNgKifirRO+sili1Ulqty7vo8vGo=",
   "Source": "RecipeBook.Api",
   "BasePath": "_content/RecipeBook.Api",
   "Mode": "Default",
@@ -91,6 +91,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/index.html",
+      "SourceId": "RecipeBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/",
+      "BasePath": "_content/RecipeBook.Api",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/js/message.js",
+      "SourceId": "RecipeBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/",
+      "BasePath": "_content/RecipeBook.Api",
+      "RelativePath": "js/message.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/message.js"
     },
     {
       "Identity": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/js/site.js",
@@ -1193,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/lib/signalr.js",
+      "SourceId": "RecipeBook.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/davidkatz/Documents/VS_Code_2021/COMP_410/warmupThree/src/RecipeBook.Api/wwwroot/",
+      "BasePath": "_content/RecipeBook.Api",
+      "RelativePath": "lib/signalr.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/signalr.js"
     }
   ]
 }

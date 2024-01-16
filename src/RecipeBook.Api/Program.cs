@@ -1,4 +1,17 @@
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSignalR().AddAzureSignalR("Endpoint=https://warmupb.service.signalr.net;AccessKey=c7iumCvC6nEqCeM0DPApJKLKezilnMlrwO/5z0JLNN4=;Version=1.0;");
+var app = builder.Build();
+
+// Application will serve the HTML pages in the wwwroot folder.
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.UseRouting();
+
+app.UseRouting();
+app.MapHub<ChatSampleHub>("/chat");
+app.Run();
+/*
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -17,9 +30,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-/*
-Code for using SignalR
-*/
+// Code for using SignalR
+
 app.UseStaticFiles();
 // app.UseMvc();
 
@@ -27,11 +39,10 @@ app.UseHttpsRedirection();
 
 app.MapControllers();
 
-/*
-app.MapGet("/shirts", () => {
-    return "all the shirts.";
-});
-*/
+//app.MapGet("/shirts", () => {
+//    return "all the shirts.";
+//});
+
 
 app.UseStaticFiles();
 
@@ -43,3 +54,4 @@ app.MapRazorPages();
 
 app.Run();
 
+*/
